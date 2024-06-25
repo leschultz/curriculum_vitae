@@ -1,1 +1,1 @@
-[View PDF](https://github.com/leschultz/curriculum_vitae/outpu/cv_leschultz.pdf)
+[View PDF](https://github.com/leschultz/curriculum_vitae/tree/main/output/cv_leschultz.pdf)

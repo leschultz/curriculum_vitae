@@ -749,27 +749,77 @@
       \endverb
     \endentry
     \entry{schultz_presentation_2021}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f1241180a26a0f8139ee59bce382bb0b}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Lane},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3691e207113bc727348237b3bdada5ed}{%
+           family={Afflerbach},
+           familyi={A\bibinitperiod},
+           given={Benjamin\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4d9c96a8604deb9b0ba69f71c5a0d305}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Dane},
+           giveni={D\bibinitperiod}}}%
+      }
       \list{location}{1}{%
         {Columbus, OH}%
       }
       \list{organization}{1}{%
         {Materials Science \& Technology}%
       }
+      \strng{namehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{fullhash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{bibnamehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{authorbibnamehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{authornamehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{authorfullhash}{466ec11137b43bc36843cc139b0ea3fb}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Molecular Dynamic Characteristic Temperatures for Predicting Metallic Glass Forming Ability}
       \field{year}{2021}
     \endentry
     \entry{schultz_presentation_2020}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f1241180a26a0f8139ee59bce382bb0b}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Lane},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3691e207113bc727348237b3bdada5ed}{%
+           family={Afflerbach},
+           familyi={A\bibinitperiod},
+           given={Benjamin\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4d9c96a8604deb9b0ba69f71c5a0d305}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Dane},
+           giveni={D\bibinitperiod}}}%
+      }
       \list{location}{1}{%
         {Virtual}%
       }
       \list{organization}{1}{%
         {Virtual Materials Research Society Spring/Fall Meeting \& Exhibit}%
       }
+      \strng{namehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{fullhash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{bibnamehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{authorbibnamehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{authornamehash}{466ec11137b43bc36843cc139b0ea3fb}
+      \strng{authorfullhash}{466ec11137b43bc36843cc139b0ea3fb}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Molecular Dynamics Features for Predicting Metallic Glass Critical Casting Thickness}
       \field{year}{2020}

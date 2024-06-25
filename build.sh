@@ -5,4 +5,5 @@ outdir=output
 
 mkdir -p ${outdir}
 latexmk -pdf -jobname=${outdir}/${name} ${name}.tex
-xdg-open ${outdir}/${name}.pdf
+ln -s ${outdir}/${name}.pdf ${name}.pdf
+xdg-open ${name}.pdf

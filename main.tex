@@ -1,16 +1,6 @@
 \documentclass[letter,12pt]{article}
 
-\usepackage[natbib=true,
-            style=ieee,
-            sorting=none,
-            maxcitenames=99,
-            citestyle=numeric-comp,
-            ]{biblatex}
-
-\usepackage[utf8]{inputenc}
-\usepackage{TLCresume}
-\usepackage{fancyhdr}
-\usepackage{enumitem}
+\usepackage{style}
 
 \setlist[itemize]{noitemsep,topsep=0pt}
 
@@ -36,7 +26,7 @@
 
     \fancyhead[C]
     {
-            \centering {\huge \skills \name \vspace{.25em}} \\
+            \centering {\huge \textbf{\name} \vspace{.25em}} \\
             {\color{highlight} \Large{\role}}
     }
 

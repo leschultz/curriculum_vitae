@@ -17,6 +17,7 @@
                 ]{biblatex}
 
 \RequirePackage[default,semibold]{sourcesanspro}
+\RequirePackage[nostruts]{titlesec}
 \RequirePackage[12pt]{moresize}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
@@ -27,14 +28,13 @@
 \RequirePackage{enumitem}
 \RequirePackage{xcolor}
 
-\setlist[itemize]{noitemsep,topsep=0pt}
-
 \raggedright
 
+\setlist[itemize]{noitemsep,topsep=0pt}
+
 \definecolor{highlight}{RGB}{61, 90, 128}
+
 \hypersetup{colorlinks=true,urlcolor=highlight}
 
-% SECTION FORMATTING 
-\RequirePackage[nostruts]{titlesec}
 \titlespacing*{\section}{0em}{0.5em}{0em}
 \titleformat{\section}{\color{highlight} \scshape \raggedright \large}{}{0em}{}[\vspace{-0.75em}\hrulefill]

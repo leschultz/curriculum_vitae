@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.16)  26 JUN 2024 11:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.16)  26 JUN 2024 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,7 +851,7 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 8.0pt on input line 4.
 ) (./sections/experience.tex
-Overfull \hbox (141.97499pt too wide) in paragraph at lines 3--1
+Overfull \hbox (57.97499pt too wide) in paragraph at lines 3--1
 [] 
  []
 
@@ -866,17 +866,17 @@ LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
 LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 7.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 40.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 43.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 40.
+(Font)              scaled to size 24.88pt on input line 43.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 40.
+(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 43.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 24.88pt on input line 40.
+(Font)              scaled to size 24.88pt on input line 43.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 40.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 43.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 40.
+(Font)              scaled to size 17.28pt on input line 43.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 43.02097pt, for example:
@@ -913,14 +913,14 @@ Here is how much of TeX's memory you used:
  39055 multiletter control sequences out of 15000+600000
  603840 words of font info for 62 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 78i,11n,82p,677b,1102s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,11n,82p,682b,1102s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-
 It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro
 /SourceSansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
 m-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super
 /sftt1200.pfb>
-Output written on output/main.pdf (3 pages, 223244 bytes).
+Output written on output/main.pdf (3 pages, 223189 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams

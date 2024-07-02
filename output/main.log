@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.6.26)  2 JUL 2024 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.6.26)  2 JUL 2024 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -538,7 +538,24 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/n' on input line 112.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 112.
-) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/02/25 v3.4 ragged2e Package
+\CenteringLeftskip=\skip74
+\RaggedLeftLeftskip=\skip75
+\RaggedRightLeftskip=\skip76
+\CenteringRightskip=\skip77
+\RaggedLeftRightskip=\skip78
+\RaggedRightRightskip=\skip79
+\CenteringParfillskip=\skip80
+\RaggedLeftParfillskip=\skip81
+\RaggedRightParfillskip=\skip82
+\JustifyingParfillskip=\skip83
+\CenteringParindent=\skip84
+\RaggedLeftParindent=\skip85
+\RaggedRightParindent=\skip86
+\JustifyingParindent=\skip87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 \csq@reset=\count395
 \csq@gtype=\count396
@@ -667,24 +684,24 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip74
+\Hy@SectionHShift=\skip88
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip75
-\f@nch@O@elh=\skip76
-\f@nch@O@erh=\skip77
-\f@nch@O@olh=\skip78
-\f@nch@O@orh=\skip79
-\f@nch@O@elf=\skip80
-\f@nch@O@erf=\skip81
-\f@nch@O@olf=\skip82
-\f@nch@O@orf=\skip83
+\f@nch@headwidth=\skip89
+\f@nch@O@elh=\skip90
+\f@nch@O@erh=\skip91
+\f@nch@O@olh=\skip92
+\f@nch@O@orh=\skip93
+\f@nch@O@elf=\skip94
+\f@nch@O@erf=\skip95
+\f@nch@O@olf=\skip96
+\f@nch@O@orf=\skip97
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip84
+\labelindent=\skip98
 \enit@outerparindent=\dimen158
 \enit@toks=\toks24
 \enit@inbox=\box53
@@ -713,7 +730,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
 )
 
 Package biblatex Warning: Load 'inputenc' before biblatex.
@@ -840,6 +857,10 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
 (Font)              scaled to size 12.0pt on input line 3.
 ) (./sections/skills.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -852,7 +873,12 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 8.0pt on input line 4.
 ) (./sections/experience.tex
 Overfull \hbox (57.97499pt too wide) in paragraph at lines 3--1
-[] 
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
+
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+SourceSansPro-TLF o
@@ -865,18 +891,50 @@ LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
 (Font)              `TS1/SourceSansPro-TLF/regular/n' on input line 7.
 LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 7.
+
+Underfull \hbox (badness 1132) in paragraph at lines 7--8
+[]\T1/SourceSansPro-TLF/semibold/n/12 Machine Learn-ing Do-main of Ap-pli-ca-bi
+l-ity for Ma-te-ri-als: \T1/SourceSansPro-TLF/regular/n/12 De-vel-oped a method
+ to de-ter-mine the
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 9--10
+[]\T1/SourceSansPro-TLF/semibold/n/12 Scientific Clus-ter Con-struc-tion and Ad
+-min-is-tra-tion: \T1/SourceSansPro-TLF/regular/n/12 As-sisted in build-ing and
+ man-ag-ing two
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/SourceSansPro-TLF/regular/n/12 man-age-ment. Com-piled ma-te-ri-als re-sear
+ch soft-ware in-clud-ing VASP, LAMMPS, and Python.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\T1/SourceSansPro-TLF/regular/n/12 Im-ple-mented En-vi-ron-ment Mod-ules to str
+eam-line soft-ware man-age-ment, en-hanc-ing re-search
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 11--12
+\T1/SourceSansPro-TLF/regular/n/12 train-ing ma-chine learn-ing in-ter-atomic p
+o-ten-tials and sim-u-lat-ing com-plex ma-te-rial prop-er-ties.
+ []
+
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 43.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 41.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 43.
+(Font)              scaled to size 24.88pt on input line 41.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 43.
+(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 41.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 24.88pt on input line 43.
+(Font)              scaled to size 24.88pt on input line 41.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 43.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 41.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 43.
+(Font)              scaled to size 17.28pt on input line 41.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 43.02097pt, for example:
@@ -897,9 +955,86 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [2])
-(./sections/presentations.tex) (./sections/teaching.tex) (./sections/awards.tex
-) (./sections/interests.tex) [3] (./output/main.aux)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+\T1/SourceSansPro-TLF/regular/it/12 Sci-ence\T1/SourceSansPro-TLF/regular/n/12 
+, vol. 196, p. 110 494, 2021, \T1/SourceSansPro-TLF/regular/sc/12 issn\T1/Sourc
+eSansPro-TLF/regular/n/12 : 0927-0256. \T1/SourceSansPro-TLF/regular/sc/12 doi\
+T1/SourceSansPro-TLF/regular/n/12 :
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 7--8
+[][]$\T1/cmtt/m/n/12 https : / / doi . org / 10 . 1016 / j . commatsci . 2021 .
+ 110494$[][]\T1/SourceSansPro-TLF/regular/n/12 . [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 11--12
+\T1/SourceSansPro-TLF/regular/n/12 Cool-ing Rate for Metal-lic Glasses from Ex-
+panded Datasets and El-e-men-tal Fea-tures,^^Q \T1/SourceSansPro-TLF/regular/it
+/12 Chem-istry of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\T1/SourceSansPro-TLF/regular/it/12 Ma-te-ri-als\T1/SourceSansPro-TLF/regular/n
+/12 , acs.chemmater.1c03542, Mar. 2022, \T1/SourceSansPro-TLF/regular/sc/12 iss
+n\T1/SourceSansPro-TLF/regular/n/12 : 0897-4756. \T1/SourceSansPro-TLF/regular/
+sc/12 doi\T1/SourceSansPro-TLF/regular/n/12 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[][]$\T1/cmtt/m/n/12 10 . 1021 / acs . chemmater . 1c03542$[][]\T1/SourceSansPr
+o-TLF/regular/n/12 . [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\T1/SourceSansPro-TLF/regular/n/12 simulation-derived fea-tures for ma-chine le
+arn-ing pre-dic-tions of metal glass form-ing abil-ity,^^Q
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\T1/SourceSansPro-TLF/regular/it/12 Com-pu-ta-tional Ma-te-ri-als Sci-ence\T1/S
+ourceSansPro-TLF/regular/n/12 , vol. 199, Nov. 2021, \T1/SourceSansPro-TLF/regu
+lar/sc/12 issn\T1/SourceSansPro-TLF/regular/n/12 : 09270256. \T1/SourceSansPro-
+TLF/regular/sc/12 doi\T1/SourceSansPro-TLF/regular/n/12 :
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 13--14
+[]\T1/SourceSansPro-TLF/regular/n/12 J. Xi, G. Bokas, L. Schultz, M. Gao, L. Zh
+ao, Y. Shen, J. Perepezko, D. Mor-gan, and I. Szl-u-farska,
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 13--14
+\T1/SourceSansPro-TLF/regular/n/12 dy-nam-ics,^^Q \T1/SourceSansPro-TLF/regular
+/it/12 Com-pu-ta-tional Ma-te-ri-als Sci-ence\T1/SourceSansPro-TLF/regular/n/12
+ , vol. 185, p. 109 958, 2020, \T1/SourceSansPro-TLF/regular/sc/12 issn\T1/Sour
+ceSansPro-TLF/regular/n/12 : 0927-0256. \T1/SourceSansPro-TLF/regular/sc/12 doi
+\T1/SourceSansPro-TLF/regular/n/12 :
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 13--14
+[][]$\T1/cmtt/m/n/12 https : / / doi . org / 10 . 1016 / j . commatsci . 2020 .
+ 109958$[][]\T1/SourceSansPro-TLF/regular/n/12 . [On-line]. Avail-able:
+ []
+
+[2]) (./sections/presentations.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+\T1/SourceSansPro-TLF/regular/it/12 Test-ing Con-fer-ence\T1/SourceSansPro-TLF/
+regular/n/12 . 2018. \T1/SourceSansPro-TLF/regular/sc/12 doi\T1/SourceSansPro-T
+LF/regular/n/12 : [][]$\T1/cmtt/m/n/12 10 . 2514 / 6 . 2018 -[] 3737$[][]\T1/So
+urceSansPro-TLF/regular/n/12 . [On-line]. Avail-able:
+ []
+
+) (./sections/teaching.tex) (./sections/awards.tex) (./sections/interests.tex)
+[3] (./output/main.aux)
 Package rerunfilecheck Info: File `output/main.out' has not changed.
 (rerunfilecheck)             Checksum: 10C9DFB451C95F3C1253D3DF960B71D4;1166.
 Package logreq Info: Writing requests to 'output/main.run.xml'.
@@ -907,23 +1042,23 @@ Package logreq Info: Writing requests to 'output/main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18869 strings out of 476041
- 333664 string characters out of 5793164
- 1873388 words of memory out of 6000000
- 39055 multiletter control sequences out of 15000+600000
+ 18961 strings out of 476041
+ 335788 string characters out of 5793164
+ 1875388 words of memory out of 6000000
+ 39143 multiletter control sequences out of 15000+600000
  603840 words of font info for 62 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 78i,11n,82p,682b,1102s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,11n,82p,686b,1104s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-
 It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro
 /SourceSansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
 m-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super
 /sftt1200.pfb>
-Output written on output/main.pdf (3 pages, 223189 bytes).
+Output written on output/main.pdf (3 pages, 225042 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 122 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  13 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

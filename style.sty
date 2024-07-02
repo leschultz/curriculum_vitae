@@ -22,13 +22,17 @@
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc}
 
+\RequirePackage{ragged2e}
 \RequirePackage{csquotes}
 \RequirePackage{hyperref}
 \RequirePackage{fancyhdr}
 \RequirePackage{enumitem}
 \RequirePackage{xcolor}
 
-\raggedright
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
 \setlist[itemize]{noitemsep,topsep=0pt}
 

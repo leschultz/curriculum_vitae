@@ -590,6 +590,37 @@
       \verb 2406.05143
       \endverb
     \endentry
+    \entry{schultz_potentials_2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=62c7c25dc2546e594546c65daf7659bf}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=704598eb98f8427f0966ff904ce020fb}{%
+           family={Afflerbach},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=97dbd7c32b2c6bec5b3e9f0ebdfd35d6}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd95cf400ab7c5345be2d9db61a92d78}
+      \strng{fullhash}{cd95cf400ab7c5345be2d9db61a92d78}
+      \strng{bibnamehash}{cd95cf400ab7c5345be2d9db61a92d78}
+      \strng{authorbibnamehash}{cd95cf400ab7c5345be2d9db61a92d78}
+      \strng{authornamehash}{cd95cf400ab7c5345be2d9db61a92d78}
+      \strng{authorfullhash}{cd95cf400ab7c5345be2d9db61a92d78}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning Metallic Glass Critical Cooling Rates Through Elemental and Molecular Simulation Based Featurization}
+    \endentry
     \entry{meng_2024}{article}{}
       \name{author}{8}{}{%
         {{hash=c65c35c66755b7ce7c8e39a7bc0ad7a0}{%
@@ -639,8 +670,8 @@
       \strng{authorbibnamehash}{0ff2892f40ee68b71882f84a3f780041}
       \strng{authornamehash}{5b1009356c11fc9a285d284952468e62}
       \strng{authorfullhash}{5b1009356c11fc9a285d284952468e62}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -748,6 +779,71 @@
       \verb 2404.09896
       \endverb
     \endentry
+    \entry{huang_2024}{article}{}
+      \name{author}{10}{}{%
+        {{hash=149a0d4f6ae00ff686fc81fd4be55deb}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shuoyuan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6412755cb88efb10efdae1619330eae6}{%
+           family={Annamareddy},
+           familyi={A\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d763ef968eb025451ad77740fc777617}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={Carter},
+           giveni={C\bibinitperiod}}}%
+        {{hash=26cb056b27ee88c3de0aeb0c4d2bb553}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Lane\bibnamedelima E.},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=d50a4356f5a638283e6bbd0075499c7c}{%
+           family={Ketkaew},
+           familyi={K\bibinitperiod},
+           given={Jittisa},
+           giveni={J\bibinitperiod}}}%
+        {{hash=df52a74ba88f795ac2f5d1c56335e5cd}{%
+           family={Ediger},
+           familyi={E\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=0b6460bfe5dec0c997c66f1a7fda5a3f}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Lian},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9f0edc9f31d67ad6e1a15ede8b0c75e1}{%
+           family={Schroers},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4d9c96a8604deb9b0ba69f71c5a0d305}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Dane},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bc08f5c4a7275ddab419671356254445}{%
+           family={Voyles1},
+           familyi={V\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a12aee853092f1f25a768ceccbe5bcac}
+      \strng{fullhash}{a12aee853092f1f25a768ceccbe5bcac}
+      \strng{bibnamehash}{c721ca14c1a08164038ab27bdd13adaf}
+      \strng{authorbibnamehash}{c721ca14c1a08164038ab27bdd13adaf}
+      \strng{authornamehash}{a12aee853092f1f25a768ceccbe5bcac}
+      \strng{authorfullhash}{a12aee853092f1f25a768ceccbe5bcac}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Composition-Resolved Dynamics in Metallic Supercooled Liquids from Momentum-Resolved Electron Correlation Microscopy}
+    \endentry
     \entry{schultz_presentation_2021}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=f1241180a26a0f8139ee59bce382bb0b}{%
@@ -778,7 +874,7 @@
       \strng{authorbibnamehash}{466ec11137b43bc36843cc139b0ea3fb}
       \strng{authornamehash}{466ec11137b43bc36843cc139b0ea3fb}
       \strng{authorfullhash}{466ec11137b43bc36843cc139b0ea3fb}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -816,7 +912,7 @@
       \strng{authorbibnamehash}{466ec11137b43bc36843cc139b0ea3fb}
       \strng{authornamehash}{466ec11137b43bc36843cc139b0ea3fb}
       \strng{authorfullhash}{466ec11137b43bc36843cc139b0ea3fb}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}

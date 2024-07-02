@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber output/main"] 1719948265.59204 "output/main.bcf" "output/main.bbl" "output/main" 1719948267.44636 0
-  "output/main.bcf" 1719948267.37222 107989 f6dc376524ac57dce1e72267e88e1b9a "pdflatex"
+["biber output/main"] 1719949563.27203 "output/main.bcf" "output/main.bbl" "output/main" 1719949565.06328 0
+  "output/main.bcf" 1719949564.98366 107989 f6dc376524ac57dce1e72267e88e1b9a "pdflatex"
   "sections/refs.bib" 1719947087.49041 7736 cea7c62bc1786c5600dae9a27408fa62 ""
   (generated)
   "output/main.bbl"
   "output/main.blg"
   (rewritten before read)
-["pdflatex"] 1719948266.77528 "main.tex" "output/main.pdf" "output/main" 1719948267.44658 0
+["pdflatex"] 1719949564.40604 "main.tex" "output/main.pdf" "output/main" 1719949565.06349 0
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_4jropk.enc" 1587936753 3267 177411e539fcc6ace86309ff03b22da6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc" 1587936753 3344 37c976a8b2fa4b8f132a488735054f7d ""
@@ -130,10 +130,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1715911350.19556 4602615 ac1019cb4c4ba39710c2cf7f752b378d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1719434163 7753325 0590191c068065172ddaba916999d43b ""
   "main.tex" 1719948263.06713 1183 ff5ed4a1afae5c34e243bf5da1c60f11 ""
-  "output/main.aux" 1719948267.37022 2871 58005f968b78aa41796080dc6847340e "pdflatex"
-  "output/main.bbl" 1719948266.0762 40886 4defa119ed4e0edd0189aa46a61ca05b "biber output/main"
-  "output/main.out" 1719948267.37122 1166 10c9dfb451c95f3c1253d3df960b71d4 "pdflatex"
-  "output/main.run.xml" 1719948267.37322 2460 2428f68f34e96e7d24fba0f5287fbc1a "pdflatex"
+  "output/main.aux" 1719949564.98166 2871 58005f968b78aa41796080dc6847340e "pdflatex"
+  "output/main.bbl" 1719949563.74863 40886 4defa119ed4e0edd0189aa46a61ca05b "biber output/main"
+  "output/main.out" 1719949564.98166 1166 10c9dfb451c95f3c1253d3df960b71d4 "pdflatex"
+  "output/main.run.xml" 1719949564.98466 2460 2428f68f34e96e7d24fba0f5287fbc1a "pdflatex"
   "sections/awards.tex" 1719945316.50215 932 a559ce473fed32c9bfbfc962a05c9aee ""
   "sections/education.tex" 1719945316.50215 420 c4e65718203ff25abb0234f0a403e140 ""
   "sections/experience.tex" 1719947325.35859 3397 9c5e75a691bfe80d996a8bdd6117a606 ""
@@ -141,7 +141,7 @@
   "sections/presentations.tex" 1719945316.50215 219 e37965c63487f6517d438098c765c460 ""
   "sections/publications.tex" 1719947419.01164 672 ed9e33e0b4436dc1a16bc54c93a13c2a ""
   "sections/skills.tex" 1719945316.50215 339 5387c6446ec3c70c8653851facb97ff7 ""
-  "sections/teaching.tex" 1719945316.50215 453 6a04c3bdb1b23817760679add8cd031d ""
+  "sections/teaching.tex" 1719949561.25058 544 0644254bd184a8967793dfc61872d50f ""
   "style.sty" 1719946851.76934 1109 06daa2c40a53ea122f0d218320bfe0c8 ""
   (generated)
   "output/main.aux"

@@ -7,6 +7,8 @@ rm -rf ${outdir} ${name}
 
 mkdir -p ${outdir}
 latexmk -pdf -jobname=${outdir}/main main.tex
-cp ${outdir}/main.pdf ${name}
+mv ${outdir}/main.pdf ${name}
+
+rm -rf ${outdir}
 
 xdg-open ${name}

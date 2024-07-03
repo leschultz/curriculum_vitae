@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.6.26)  3 JUL 2024 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.6.26)  3 JUL 2024 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,13 +934,6 @@ Underfull \hbox (badness 4792) in paragraph at lines 11--12
 ic glass form-ing abil-ity us-ing el-e-men-tal and sim-u-lated
  []
 
-
-Underfull \hbox (badness 1048) in paragraph at lines 19--20
-[]\T1/SourceSansPro-TLF/semibold/n/12 Developed Toolkit: \T1/SourceSansPro-TLF/
-regular/n/12 Au-to-mated and vi-su-al-ized Di-rect Ac-cel-er-ated Ge-om-e-try M
-onte Carlo (DAGMC)
- []
-
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/n' on input line 43.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
@@ -1075,7 +1068,7 @@ It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro
 /SourceSansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
 m-super/sftt1200.pfb>
-Output written on output/main.pdf (3 pages, 223337 bytes).
+Output written on output/main.pdf (3 pages, 223339 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  104 compressed objects within 2 object streams

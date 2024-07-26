@@ -1,0 +1,46 @@
+% Original Author: Timmy Chan
+% Edited: Lane E. Schultz
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{resumestyle}
+
+\RequirePackage[
+                margin=0.5in,
+                top=0.75in,
+                ]{geometry}
+
+\RequirePackage[
+                maxcitenames=99,
+                ]{biblatex}
+
+\RequirePackage[
+                default,
+                semibold
+                ]{sourcesanspro}
+
+\RequirePackage[nostruts]{titlesec}
+\RequirePackage[12pt]{moresize}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+
+\RequirePackage{lastpage}
+\RequirePackage{ragged2e}
+\RequirePackage{csquotes}
+\RequirePackage{hyperref}
+\RequirePackage{fancyhdr}
+\RequirePackage{enumitem}
+\RequirePackage{xcolor}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\setlist[itemize]{itemsep=0pt,topsep=0pt}
+
+\definecolor{highlight}{RGB}{61, 90, 128}
+
+\hypersetup{colorlinks=true,urlcolor=highlight}
+
+\titlespacing*{\section}{0em}{0.5em}{0em}
+\titleformat{\section}{\color{highlight} \scshape \raggedright \large}{}{0em}{}[\vspace{-0.75em}\hrulefill]

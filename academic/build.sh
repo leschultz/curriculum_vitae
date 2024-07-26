@@ -1,6 +1,6 @@
 #!/bin/bash
 
-name=cv_leschultz.pdf
+name=../cv_academic_leschultz.pdf
 outdir=output
 
 rm -rf ${outdir} ${name}

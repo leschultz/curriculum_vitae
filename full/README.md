@@ -1,1 +1,0 @@
-Hosting my curriculum vitae

@@ -1,65 +1,58 @@
-\documentclass[letter,12pt]{article}
-
+\documentclass[letterpaper,11pt]{article}
 \usepackage{style}
 
-\def\name{Lane E. Schultz, Ph.D.}
-\def\phone{(806) 678-6904}
-\def\emailwork{leschul@sandia.gov}
-\def\emailgmail{laneenriqueschultz@gmail.com}
-\def\LinkedIn{lane-schultz-983920236}
-\def\github{leschultz}
-\def\website{leschultz.github.io}
-
+\newcommand{\name}{Lane E. Schultz, Ph.D.}
 \addbibresource{sections/refs.bib}
-
-\fancypagestyle{firstpage}
-{
-    \fancyhead[L]
-    {
-            \href{mailto:\emailgmail}{\emailgmail}\\
-            \href{mailto:\emailwork}{\emailwork}\\
-            \phone
-    }
-
-    \fancyhead[C]
-    {
-            \centering
-            {
-                \Large \textbf{\name} \vspace{.25em}\\
-                {\color{highlight} Curriculum Vitae}
-            }
-    }
-
-    \fancyhead[R]
-    {
-        LinkedIn: \href{https://www.linkedin.com/in/\LinkedIn}{\LinkedIn}\\
-        Website: \href{https://\website}{\website}\\
-        GitHub: \href{https://github.com/\github}{\github}
-    }
+\hypersetup{
+    pdftitle={Lane E. Schultz — Curriculum Vitae},
+    pdfauthor={Lane E. Schultz},
+    pdfsubject={Materials science, machine learning, and scientific computing},
+    pdfkeywords={materials science, Bayesian optimization, atomistic simulation, machine learning},
+    pdflang={en-US}
 }
 
 \pagestyle{fancy}
-\fancyhead[L]{}
-\fancyhead[C]{}
-\fancyhead[R]{}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Lane E. Schultz}
+\fancyhead[R]{\small\color{muted}Curriculum Vitae}
+\fancyfoot[L]{\small\href{https://leschultz.github.io}{leschultz.github.io}}
+\fancyfoot[R]{\small\thepage\ / \pageref*{LastPage}}
 \renewcommand{\headrulewidth}{0pt}
-\fancyfoot[L]{Curriculum Vitae}
-\fancyfoot[C]{\name}
-\fancyfoot[R]{\thepage\ of {\hypersetup{linkcolor=black}\pageref{LastPage}}}
-\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{firstpage}{\fancyhead{}}
 
 \begin{document}
-\justifying
-
+\RaggedRight
 \thispagestyle{firstpage}
 
-\noindent \makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+{\fontsize{28}{32}\selectfont\bfseries\color{ink}\name\par}
+\vspace{0.3em}
+{\large\color{highlight}Materials scientist and engineer\par}
+\vspace{0.55em}
+{\small
+Albuquerque, New Mexico\enspace\textbar\enspace
+\href{tel:+18066786904}{(806) 678-6904}\enspace\textbar\enspace
+\href{https://leschultz.github.io}{leschultz.github.io}\par
+\href{mailto:laneenriqueschultz@gmail.com}{laneenriqueschultz@gmail.com}\enspace\textbar\enspace
+\href{mailto:leschul@sandia.gov}{leschul@sandia.gov}\par
+\href{https://github.com/leschultz}{GitHub}\enspace\textbar\enspace
+\href{https://scholar.google.com/citations?user=8WyBz08AAAAJ}{Google Scholar}\enspace\textbar\enspace
+\href{https://www.linkedin.com/in/lane-schultz-983920236/}{LinkedIn}\enspace\textbar\enspace
+\href{https://orcid.org/0000-0002-7870-7714}{ORCID: 0000-0002-7870-7714}\par
+}
 
+\vspace{0.7em}
+Materials scientist combining uncertainty-aware machine learning, Bayesian optimization, and
+multiscale simulation to accelerate materials discovery and connect structure to properties.
+
+\input{sections/experience}
 \input{sections/education}
 \input{sections/skills}
-\input{sections/experience}
 \input{sections/publications}
 \input{sections/presentations}
+\input{sections/earlier_experience}
+\input{sections/service}
+\input{sections/professional_development}
 \input{sections/teaching}
 \input{sections/awards}
 \input{sections/additional_information}

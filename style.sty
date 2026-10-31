@@ -1,50 +1,69 @@
-% Original Author: Timmy Chan
-% Edited: Lane E. Schultz
-
+% Original template: Timmy Chan. Adapted for Lane E. Schultz.
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{resumestyle}
+\ProvidesPackage{style}[2026/10/31 Research CV style]
 
-\RequirePackage[
-                margin=0.7in,
-                top=0.75in,
-                ]{geometry}
-
-\RequirePackage[utf8]{inputenc}
-\RequirePackage[T1]{fontenc}
-
-\RequirePackage[
-                default,
-                semibold
-                ]{sourcesanspro}
-
-\RequirePackage[
-                maxcitenames=99,
-                ]{biblatex}
-
-\RequirePackage[nostruts]{titlesec}
-\RequirePackage[12pt]{moresize}
-
-\RequirePackage{tabularx}
-\RequirePackage{lastpage}
-\RequirePackage{ragged2e}
-\RequirePackage{csquotes}
-\RequirePackage{hyperref}
-\RequirePackage{fancyhdr}
-\RequirePackage{enumitem}
+\RequirePackage[margin=0.7in,top=0.65in,bottom=0.65in,headheight=14pt,headsep=12pt,footskip=24pt]{geometry}
+\IfFileExists{sourcesans.sty}{\RequirePackage[default,semibold]{sourcesans}}{\RequirePackage[default,semibold]{sourcesanspro}}
+\RequirePackage{microtype}
 \RequirePackage{xcolor}
+\RequirePackage{ragged2e}
+\RequirePackage{enumitem}
+\RequirePackage{needspace}
+\RequirePackage{tabularx}
 \RequirePackage{array}
+\RequirePackage{lastpage}
+\RequirePackage{fancyhdr}
+\RequirePackage{csquotes}
+\RequirePackage[backend=biber,style=authoryear,giveninits=true,uniquename=false,
+    maxbibnames=99,maxcitenames=99,doi=true,isbn=false,url=false,sorting=none]{biblatex}
+\RequirePackage[nostruts]{titlesec}
+\RequirePackage{hyperref}
+\RequirePackage{xurl}
 
-\tolerance=1
-\emergencystretch=\maxdimen
+\definecolor{ink}{HTML}{172E36}
+\definecolor{highlight}{HTML}{17666A}
+\definecolor{muted}{HTML}{4D5E65}
+\color{ink}
+\hypersetup{colorlinks=true,urlcolor=highlight,linkcolor=highlight,breaklinks=true}
+\urlstyle{same}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.18em}
+\setlength{\emergencystretch}{2em}
 \hyphenpenalty=10000
-\exhyphenpenalty=10000
+\setlength{\bibitemsep}{0.6em}
+\clubpenalty=10000
+\widowpenalty=10000
 
-\setlist[itemize]{itemsep=1pt,topsep=1pt}
+\titleformat{\section}{\large\bfseries\color{highlight}}{}{0pt}{}[\vspace{0.1em}\titlerule]
+\titlespacing*{\section}{0pt}{0.8em}{0.45em}
+\titleformat{\subsection}{\normalsize\bfseries\color{ink}}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0.7em}{0.3em}
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.15em,topsep=0.25em,parsep=0pt}
 
-\definecolor{highlight}{RGB}{61, 90, 128}
+% Keep role headings with the first lines of their description.
+\newcommand{\cvrole}[4]{%
+    \par\addvspace{0.5em}\Needspace{5\baselineskip}%
+    \textbf{#1}\hfill{\small #2}\par\nopagebreak
+    {\small #3\enspace\textbar\enspace #4}\par\nopagebreak
+}
 
-\hypersetup{colorlinks=true,urlcolor=highlight}
+\newlist{publications}{enumerate}{1}
+\setlist[publications]{label=\arabic*.,leftmargin=1.7em,itemsep=0.65em,
+    topsep=0.3em,parsep=0pt,before=\small}
+% A citation is a single reading unit: never split it over two pages.
+\newcommand{\publication}[1]{%
+    \item\begin{minipage}[t]{\linewidth}\RaggedRight\fullcite{#1}\end{minipage}%
+}
 
-\titlespacing*{\section}{0em}{0.75em}{0.75em}
-\titleformat{\section}
-  {\color{highlight}\raggedright\large}{}{0em}{}[\vspace{-0.75em}\hrulefill]
+% All Schultz entries in this bibliography refer to the CV's author.
+\renewcommand*{\mkbibnamefamily}[1]{\ifdefstring{\namepartfamily}{Schultz}{\mkbibbold{#1}}{#1}}
+\renewcommand*{\mkbibnamegiven}[1]{\ifdefstring{\namepartfamily}{Schultz}{\mkbibbold{#1}}{#1}}
+\DeclareFieldFormat[article,unpublished,online,inproceedings]{title}{%
+    \iffieldundef{doi}{#1}{\href{https://doi.org/\thefield{doi}}{#1}}}
+\renewbibmacro{in:}{\ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+\renewbibmacro*{volume+number+eid}{%
+    \printfield{volume}%
+    \iffieldundef{number}{}{\printtext[parens]{\printfield{number}}}%
+    \setunit{\addcomma\space}\printfield{eid}}
+\DeclareFieldFormat{doi}{\mbox{DOI\addcolon\space\href{https://doi.org/#1}{\nolinkurl{#1}}}}
+\AtEveryCitekey{\clearfield{month}\clearfield{day}\clearfield{issn}\clearfield{isbn}\clearfield{extradate}}
